@@ -1,0 +1,163 @@
+.mainHeader {
+    display: flex;
+    width:85%;
+    justify-content: space-between;
+    border-radius: 30px 30px 30px 30px;
+    background-color:khaki;
+    padding: 20px;
+    margin-left: 6%;
+}
+nav {
+    display: flex;
+    align-items: flex-end;
+}
+nav a {
+    align-self: baseline;
+}
+nav div {
+    padding: 10px;
+    align-items: baseline;
+    
+}
+section {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+body {
+    background:coral;
+}
+
+#simulatorBTN {
+    margin-top: 20px;
+    height: 40px;
+    background-color: green;
+}
+
+#title {
+    text-align: center;
+    font-family: cursive;
+    color:green;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+}
+.teamHeader {
+    font-family: Verdana;
+    text-decoration: underline overline;
+    
+}
+.teamOneContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    overflow-x: scroll;
+}    
+
+.playerDivs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border:solid blue;
+    padding: 45px;
+    margin: 10;
+    border-radius: 25px;
+}
+
+.accolades {
+    align-self: center;
+}
+
+.teamTwoDivContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    overflow-x: auto;
+}
+
+#winner {
+    display: flex;
+    justify-content: space-evenly;
+}
+button h2 {
+    right: 50%;
+}
+
+.winnerProjectionDiv {
+    display: flex;
+}
+
+#aboutDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: yellow;
+    width: 100%;
+}
+
+#aboutDiv h1 {
+    align-self: center;
+}
+#aboutDiv p {
+    word-spacing: 2px;
+    padding: 20px;
+    
+}
+
+#dataDiv {
+ 
+}
+
+
+#playerPoolH {
+    display: flex;
+    color:black;
+    justify-content: center;
+    font-family: cursive;
+    background-color: white;
+    height: 50px;
+    font-size: 40px;
+    font-family: Verdana;
+    
+}
+
+img {
+    height:200px;
+    width: 200px;
+}
+
+#playerPoolLIst {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+#chooseAposition {
+    font-size: 30px;
+    
+}
+@media (max-width: 500px) {
+    .mainHeader {
+        display: flex;
+        justify-content: space-between;
+        font-size: small;
+        background-color: blue;
+    }
+    .teamOneContainer {
+        display: flex;
+        justify-content: space-between; 
+    }
+    #playerPoolH {
+        display: flex;
+        font-size: 10px;
+        color: tomato;
+    }
+}
